@@ -1,5 +1,5 @@
 from flask import Flask
-from app.route import hello_world, index
+from app.route import index
 
 
 def create_app():
