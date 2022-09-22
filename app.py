@@ -7,8 +7,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__,
             static_url_path="/", 
-            static_folder='Bootstrap5/static/',
-            template_folder='Bootstrap5/templates/')
+            static_folder='BS5/static/',
+            template_folder='BS5/templates/')
 
 @app.route('/')
 def index():
