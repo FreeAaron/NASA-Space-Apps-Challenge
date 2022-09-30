@@ -12,8 +12,8 @@ from flask import Flask, render_template
 
 app = Flask(__name__,
             static_url_path="", 
-            static_folder='arsha/static/',
-            template_folder='arsha/templates/')
+            static_folder='Aaron/static/',
+            template_folder='Aaron/templates/')
 
 @app.route('/')
 def index():
