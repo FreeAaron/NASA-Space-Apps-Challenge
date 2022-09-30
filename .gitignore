@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# 暫時不用的模板
+BS5/
+app/
+
 # Distribution / packaging
 .Python
 build/
