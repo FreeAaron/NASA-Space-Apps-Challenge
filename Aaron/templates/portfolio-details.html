@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Arsha Bootstrap Template</title>
+  <title>12 Stellar travel</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/STapple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -42,13 +42,14 @@
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1>
+      <h1 class="logo me-auto"><a href="{{ url_for('index') }}">Stellar travel</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#Game">Play Game</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link  active scrollto" href="#portfolio">Portfolio</a></li>
@@ -71,7 +72,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
-          <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          <li><a class="getstarted scrollto" href="https://buildacc.github.io/buildNasa1001">Play Game</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -86,7 +87,7 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ url_for('index') }}">Home</a></li>
           <li>Portfolio Details</li>
         </ol>
         <h2>Portfolio Details</h2>
@@ -125,16 +126,25 @@
             <div class="portfolio-info">
               <h3>Project information</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: Unity Game</li>
+                <li><strong>Client</strong>: Microsoft Corporation</li>
+                <li><strong>Project date</strong>: 01 Oct, 2022</li>
+                <li><strong>Project URL</strong>: <a href="https://buildacc.github.io/buildNasa1001">https://buildacc.github.io/buildNasa1001</a></li>
               </ul>
             </div>
             <div class="portfolio-description">
               <h2>This is an example of portfolio detail</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                天空被暗物質所壟罩了
+              </p>
+              <p>
+為了將背負人類未來的飛船平安送到宇宙
+              </p>
+              <p>
+妳將收集12神奇力量的星星以消滅所有的暗物質
+              </p>
+              <p>
+拯救人類
               </p>
             </div>
           </div>
@@ -147,7 +157,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <!-- <footer id="footer">
 
     <div class="footer-newsletter">
       <div class="container">
@@ -214,7 +224,7 @@
 
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container footer-bottom clearfix">
       <div class="copyright">
@@ -228,7 +238,8 @@
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
+  <!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
